@@ -1,0 +1,66 @@
+/*
+ * mdd.c
+ *
+ *  Created on: 25 janv. 2017
+ *      Author: francois
+ */
+#include <pthread.h>
+#include <string.h>
+#include <malloc.h>
+#include "mdd_gen.h"
+
+/**
+ * Initializes a shared int
+ *\param buff[in] initial buffue of the shared data
+ *\return the new shared int, memory allocation is done inside the function
+ */
+MDD_GEN MDD_GEN_init(int size, void *arg_buff) {
+
+	MDD_GEN m=(MDD_GEN)malloc(sizeof(struct s_MDD_GEN));
+	m->buff = malloc(size);
+	m->buff=arg_buff;
+	m->dirty=0;
+	pthread_mutex_init(&(m->mutex),0);
+	return m;
+}
+
+/**
+ * Writes in a shared int
+ *\param mdd[in,out] the shared data
+ *\param buff[in] buffue to write in the shared data
+ */
+void MDD_GEN_write(MDD_GEN mdd, const void *buff) {
+	pthread_mutex_lock(&(mdd->mutex));
+	memcpy(mdd->buff, buff, sizeof(*buff));
+	mdd->dirty=1;
+	pthread_mutex_unlock(&(mdd->mutex));
+}
+/**
+ * Reads in a shared int
+ *\param mdd[in] the shared data
+ *\return buffue of the shared data
+ */
+void* MDD_GEN_read(MDD_GEN mdd) {
+	void *buff;
+	pthread_mutex_lock(&(mdd->mutex));
+	memcpy(buff, mdd->buff, sizeof(*mdd->buff));
+	mdd->dirty=0;
+	pthread_mutex_unlock(&(mdd->mutex));
+	return buff;
+}
+/**
+ * Reads in a shared int, while returning if it was dirty
+ *\param mdd[in] the shared data
+ *\param val[out] value of the shared data
+ *\return  1 if the shared data was modified since last reading (i.e., dirty), 0 else
+ */
+int MDD_GEN_read2(MDD_GEN mdd, void *buff) {
+	int dirty;
+	pthread_mutex_lock(&(mdd->mutex));
+	memcpy(buff, mdd->buff, sizeof(*mdd->buff));
+	dirty=mdd->dirty;
+	mdd->dirty=0;
+	pthread_mutex_unlock(&(mdd->mutex));
+	return dirty;
+
+}

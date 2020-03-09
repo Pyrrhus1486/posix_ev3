@@ -1,0 +1,51 @@
+/*
+ * mdd.h
+ *
+ *  Created on: 25 janv. 2017
+ *      Author: grolleau
+ */
+
+#ifndef MDD_GEN_H_
+#define MDD_GEN_H_
+
+typedef struct s_MDD_GEN {
+	void * buff;
+	int dirty;
+	int size;
+	pthread_mutex_t mutex;
+} * MDD_GEN;
+
+/**
+ * Initializes a shared int
+ *\param val[in] initial value of the shared data
+ *\return the new shared int, memory allocation is done inside the function
+ */
+MDD_GEN MDD_GEN_init(int size, void *arg_buff);
+
+/**
+ * Writes in a shared int
+ *\param mdd[in,out] the shared data
+ *\param val[in] value to write in the shared data
+ * Side effect: shared int is considered dirty until next reading
+ */
+void MDD_GEN_write(MDD_GEN mdd, const void* arg_val);
+
+/**
+ * Reads in a shared int
+ *\param mdd[in] the shared data
+ *\return value of the shared data
+ * Side effect: shared int is now considered clean
+ */
+//void* MDD_GEN_read(MDD_GEN mdd);
+
+/**
+ * Reads in a shared int, while returning if it was dirty
+ *\param mdd[in] the shared data
+ *\param val[out] value of the shared data
+ *\return  1 if the shared data was modified since last reading (i.e., dirty), 0 else
+ * Side effect: shared int is now considered clean
+ */
+int MDD_GEN_read2(MDD_GEN mdd, void *buff);
+
+
+#endif /* MDD_GEN_H_ */

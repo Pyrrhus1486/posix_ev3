@@ -1,0 +1,60 @@
+
+     ____ __     ____   ___    ____ __         (((((()
+    | |_  \ \  /   ) ) | |  ) | |_  \ \  /  \(@)- /
+    |_|__  \_\/  __)_) |_|_/  |_|__  \_\/   /(@)- \
+                                               ((())))
+    ___             ______________________________
+    ___ WHAT IS IT? ______________________________
+
+    ev3_link is a part of ev3dev-c library which provides your program
+    with remote access to the EV3 brick over UDP.
+    Also ev3_link is used as a stand-alone program (server) on the EV3 brick
+    to handle requests from a remote computer (client).
+
+    The interchange protocol:
+
+        http://in4lio.github.io/ev3dev-c/udp.html
+
+    ___        ___________________________________
+    ___ SERVER ___________________________________
+
+    ev3_link server must be running on the brick to drive the EV3 hardware
+    remotely.
+    There are makefile in "source/ev3/ev3_link" folder to build the server.
+
+    * * *  How to automatically start ev3_link server (daemon) on boot
+
+    > cd ev3dev-c/
+    > sudo cp source/ev3/ev3_link/ev3_link_d /etc/init.d/
+    > sudo cp source/ev3/ev3_link/ev3_link /usr/local/sbin/
+    > sudo chmod 755 /etc/init.d/ev3_link_d
+    > sudo update-rc.d ev3_link_d defaults
+
+    * * *  How to set WLAN up on the EV3 brick
+
+    http://www.ev3dev.org/docs/networking/
+
+    ___        ___________________________________
+    ___ CLIENT ___________________________________
+
+    The remote access to the EV3 brick is implied when you build a program
+    under Windows or Linux (not on __ARM_ARCH_4T__).
+
+    Approximately every 5 seconds the server transmits a broadcast message
+    to port 8800 (or other specified) that allows the client to detect
+    the brick's IP address. Or, you can specify the IP address of the server
+    manually before calling the initialization:
+
+    #include "ev3.h"
+
+    #ifndef __ARM_ARCH_4T__
+        ev3_brick_addr = "192.168.0.204";
+
+    #endif
+
+    ev3_init();
+
+    ___         __________________________________
+    ___ LICENSE __________________________________
+
+    Please see the file called "LICENSE".

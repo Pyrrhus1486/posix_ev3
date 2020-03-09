@@ -1,0 +1,5 @@
+Tant qu'on aura pas changé le préfixe, on aura des erreurs eclipse.
+si apply supprime ce qu'on avait mis avant, on met "custom"
+
+compte rendu : transformation conception --> impléméntation
+compte rendu comparatif entre les 2 TP.			

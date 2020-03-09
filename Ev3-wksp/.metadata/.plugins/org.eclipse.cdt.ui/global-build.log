@@ -1,0 +1,35 @@
+15:07:58 **** Incremental Build of configuration Release for project test_tpEv3_V1 ****
+make all 
+Building file: ../test_mdd_gen.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test_mdd_gen.d" -MT"test_mdd_gen.o" -o "test_mdd_gen.o" "../test_mdd_gen.c"
+../test_mdd_gen.c: In function ‘main’:
+../test_mdd_gen.c:43:39: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [-Wincompatible-pointer-types]
+  pthread_create(&tacheEcrivain, NULL, ecrire_mdd_gen, mon_mdd_gen);
+                                       ^~~~~~~~~~~~~~
+In file included from ../test_mdd_gen.c:4:0:
+/usr/include/pthread.h:234:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void (*)(struct s_MDD_GEN *)’
+ extern int pthread_create (pthread_t *__restrict __newthread,
+            ^~~~~~~~~~~~~~
+../test_mdd_gen.c:45:38: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [-Wincompatible-pointer-types]
+  pthread_create(&tacheLecteur, NULL, lire_mdd_gen, mon_mdd_gen);
+                                      ^~~~~~~~~~~~
+In file included from ../test_mdd_gen.c:4:0:
+/usr/include/pthread.h:234:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void (*)(struct s_MDD_GEN *)’
+ extern int pthread_create (pthread_t *__restrict __newthread,
+            ^~~~~~~~~~~~~~
+Finished building: ../test_mdd_gen.c
+ 
+Building target: test_tpEv3_V1
+Invoking: GCC C Linker
+gcc  -o "test_tpEv3_V1"  ./bal.o ./mdd.o ./mdd_gen.o ./test_bal.o ./test_mdd.o ./test_mdd_gen.o   -lpthread
+./test_mdd.o : Dans la fonction « main » :
+test_mdd.c:(.text.startup+0x0) : définitions multiples de « main »
+./test_bal.o:test_bal.c:(.text.startup+0x0) : défini pour la première fois ici
+./test_mdd_gen.o : Dans la fonction « main » :
+test_mdd_gen.c:(.text.startup+0x0) : définitions multiples de « main »
+./test_bal.o:test_bal.c:(.text.startup+0x0) : défini pour la première fois ici
+collect2: error: ld returned 1 exit status
+make: *** [test_tpEv3_V1] Error 1
+makefile:29: recipe for target 'test_tpEv3_V1' failed
+"make all" terminated with exit code 2. Build might be incomplete.

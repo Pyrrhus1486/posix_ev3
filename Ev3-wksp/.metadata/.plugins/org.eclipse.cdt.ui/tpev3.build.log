@@ -1,0 +1,62 @@
+13:51:43 **** Incremental Build of configuration Release for project tpev3 ****
+make all 
+Building file: ../bal.c
+Invoking: GNU ARM Cross C Compiler
+arm-linux-gnueabi-gcc -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -D__ARM_ARCH_4T__=1 -I/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/source/ev3 -std=gnu11 -MMD -MP -MF"bal.d" -MT"bal.o" -c -o "bal.o" "../bal.c"
+Finished building: ../bal.c
+ 
+Building file: ../mdd.c
+Invoking: GNU ARM Cross C Compiler
+arm-linux-gnueabi-gcc -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -D__ARM_ARCH_4T__=1 -I/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/source/ev3 -std=gnu11 -MMD -MP -MF"mdd.d" -MT"mdd.o" -c -o "mdd.o" "../mdd.c"
+Finished building: ../mdd.c
+ 
+Building file: ../mdd_gen.c
+Invoking: GNU ARM Cross C Compiler
+arm-linux-gnueabi-gcc -mcpu=cortex-m3 -mthumb -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -D__ARM_ARCH_4T__=1 -I/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/source/ev3 -std=gnu11 -MMD -MP -MF"mdd_gen.d" -MT"mdd_gen.o" -c -o "mdd_gen.o" "../mdd_gen.c"
+../mdd_gen.c:17:9: error: conflicting types for ‘MDD_GEN_init’
+ MDD_GEN MDD_GEN_init(int size, void *arg_buff) {
+subdir.mk:42: recipe for target 'mdd_gen.o' failed
+         ^~~~~~~~~~~~
+In file included from ../mdd_gen.c:10:0:
+../mdd_gen.h:22:9: note: previous declaration of ‘MDD_GEN_init’ was here
+ MDD_GEN MDD_GEN_init(const void * arg_val);
+         ^~~~~~~~~~~~
+../mdd_gen.c: In function ‘MDD_GEN_read’:
+../mdd_gen.c:47:9: warning: dereferencing ‘void *’ pointer
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+         ^~~~~
+../mdd_gen.c:47:16: warning: dereferencing ‘void *’ pointer
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+                ^~~~~~~~~~
+../mdd_gen.c:47:9: error: invalid use of void expression
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+         ^
+../mdd_gen.c:47:16: error: invalid use of void expression
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+                ^
+../mdd_gen.c: At top level:
+../mdd_gen.c:58:5: error: conflicting types for ‘MDD_GEN_read2’
+ int MDD_GEN_read2(MDD_GEN mdd, void *buff) {
+     ^~~~~~~~~~~~~
+In file included from ../mdd_gen.c:10:0:
+../mdd_gen.h:47:5: note: previous declaration of ‘MDD_GEN_read2’ was here
+ int MDD_GEN_read2(MDD_GEN mdd,int *val);
+     ^~~~~~~~~~~~~
+../mdd_gen.c: In function ‘MDD_GEN_read2’:
+../mdd_gen.c:61:9: warning: dereferencing ‘void *’ pointer
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+         ^~~~~
+../mdd_gen.c:61:16: warning: dereferencing ‘void *’ pointer
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+                ^~~~~~~~~~
+../mdd_gen.c:61:9: error: invalid use of void expression
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+         ^
+../mdd_gen.c:61:16: error: invalid use of void expression
+  memcpy(*buff, *mdd->buff, sizeof(*mdd->buff));
+                ^
+make: *** [mdd_gen.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+13:51:44 Build Failed. 8 errors, 4 warnings. (took 521ms)
+

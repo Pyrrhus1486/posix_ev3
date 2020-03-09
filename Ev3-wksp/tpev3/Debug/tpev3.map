@@ -1,0 +1,1819 @@
+Membre d'archive inclu pour satisfaire la référence par fichier (symbole)
+
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+                              ./main.o (ev3_init)
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+                              ./main.o (ev3_port_init)
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+                              ./myev3.o (ev3_search_sensor_plugged_in)
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+                              ./myev3.o (ev3_search_tacho_plugged_in)
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o) (modp_itoa10)
+/media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o) (crc32)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+                              ./time_util.o (__aeabi_idiv)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+                              ./workers.o (__aeabi_dsub)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+                              ./workers.o (__aeabi_dmul)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o) (__aeabi_dcmpeq)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+                              ./workers.o (__aeabi_d2iz)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o) (__aeabi_d2uiz)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o) (__aeabi_d2f)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+                              ./workers.o (__aeabi_i2f)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+                              ./workers.o (__aeabi_fcmplt)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+                              ./workers.o (__aeabi_f2iz)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+                              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o) (__aeabi_uldivmod)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o (__libc_csu_init)
+
+Bibliothèque requise inclue pour satisfaire la référence par fichier (symbole)
+
+librt.so.1                    ./main.o (clock_gettime@@GLIBC_2.4)
+libm.so.6                     ./workers.o (atan2@@GLIBC_2.4)
+libgcc_s.so.1                 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o) (__aeabi_unwind_cpp_pr0@@GCC_3.5)
+libc.so.6                     ./communication.o (socket@@GLIBC_2.4)
+ld-linux.so.3                 ./communication.o (__stack_chk_guard@@GLIBC_2.4)
+
+Allocation des symboles communs
+Symbole commun      taille            fichier
+
+ev3_port            0x100             /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+MDD_quit            0x4               ./main.o
+MY_RIGHT_TACHO      0x1               ./myev3.o
+MY_US_SENSOR        0x1               ./myev3.o
+ev3_tacho           0xc0              /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+MY_LEFT_TACHO       0x1               ./myev3.o
+MY_MINI_TACHO       0x1               ./myev3.o
+ev3_sensor          0x100             /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+
+Sections d'entrée éliminées
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .group         0x0000000000000000        0xc ./communication.o
+ .text          0x0000000000000000        0x0 ./communication.o
+ .data          0x0000000000000000        0x0 ./communication.o
+ .bss           0x0000000000000000        0x0 ./communication.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./communication.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .group         0x0000000000000000        0xc ./main.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .text.scanThread
+                0x0000000000000000       0x74 ./main.o
+ .text.sendThread
+                0x0000000000000000       0x74 ./main.o
+ .text.directThread
+                0x0000000000000000       0x12 ./main.o
+ .text.deadreckoningThread
+                0x0000000000000000       0x12 ./main.o
+ .text.autoThread
+                0x0000000000000000       0x12 ./main.o
+ .debug_macro   0x0000000000000000      0xa6c ./main.o
+ .debug_macro   0x0000000000000000       0x16 ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000      0x19e ./main.o
+ .debug_macro   0x0000000000000000      0x168 ./main.o
+ .debug_macro   0x0000000000000000       0x1c ./main.o
+ .debug_macro   0x0000000000000000       0x4a ./main.o
+ .debug_macro   0x0000000000000000       0x70 ./main.o
+ .debug_macro   0x0000000000000000       0x34 ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000       0x97 ./main.o
+ .debug_macro   0x0000000000000000       0x5e ./main.o
+ .debug_macro   0x0000000000000000       0xe2 ./main.o
+ .debug_macro   0x0000000000000000       0x16 ./main.o
+ .debug_macro   0x0000000000000000       0x20 ./main.o
+ .debug_macro   0x0000000000000000       0x28 ./main.o
+ .debug_macro   0x0000000000000000       0x58 ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000      0x1cc ./main.o
+ .debug_macro   0x0000000000000000       0x46 ./main.o
+ .debug_macro   0x0000000000000000       0x2e ./main.o
+ .debug_macro   0x0000000000000000       0x27 ./main.o
+ .debug_macro   0x0000000000000000       0x3a ./main.o
+ .debug_macro   0x0000000000000000       0x4c ./main.o
+ .debug_macro   0x0000000000000000       0x12 ./main.o
+ .debug_macro   0x0000000000000000       0x12 ./main.o
+ .debug_macro   0x0000000000000000       0x1c ./main.o
+ .debug_macro   0x0000000000000000       0x28 ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000       0x4c ./main.o
+ .debug_macro   0x0000000000000000       0x1c ./main.o
+ .debug_macro   0x0000000000000000       0x10 ./main.o
+ .debug_macro   0x0000000000000000       0x4c ./main.o
+ .debug_macro   0x0000000000000000       0x1c ./main.o
+ .debug_macro   0x0000000000000000       0x2e ./main.o
+ .debug_macro   0x0000000000000000       0x5e ./main.o
+ .debug_macro   0x0000000000000000       0x27 ./main.o
+ .debug_macro   0x0000000000000000       0x70 ./main.o
+ .debug_macro   0x0000000000000000       0x17 ./main.o
+ .debug_macro   0x0000000000000000       0x70 ./main.o
+ .debug_macro   0x0000000000000000      0x190 ./main.o
+ .debug_macro   0x0000000000000000       0x52 ./main.o
+ .debug_macro   0x0000000000000000       0x27 ./main.o
+ .debug_macro   0x0000000000000000      0x824 ./main.o
+ .debug_macro   0x0000000000000000       0x20 ./main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./main.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .group         0x0000000000000000        0xc ./mdd.o
+ .text          0x0000000000000000        0x0 ./mdd.o
+ .data          0x0000000000000000        0x0 ./mdd.o
+ .bss           0x0000000000000000        0x0 ./mdd.o
+ .text.MDD_int_read
+                0x0000000000000000       0x32 ./mdd.o
+ .text.MDD_int_read2
+                0x0000000000000000       0x3c ./mdd.o
+ .debug_macro   0x0000000000000000      0xa6c ./mdd.o
+ .debug_macro   0x0000000000000000       0x16 ./mdd.o
+ .debug_macro   0x0000000000000000      0x19e ./mdd.o
+ .debug_macro   0x0000000000000000      0x168 ./mdd.o
+ .debug_macro   0x0000000000000000       0x1c ./mdd.o
+ .debug_macro   0x0000000000000000       0x4a ./mdd.o
+ .debug_macro   0x0000000000000000       0x70 ./mdd.o
+ .debug_macro   0x0000000000000000       0x1c ./mdd.o
+ .debug_macro   0x0000000000000000       0x28 ./mdd.o
+ .debug_macro   0x0000000000000000       0x5e ./mdd.o
+ .debug_macro   0x0000000000000000       0xe2 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x4c ./mdd.o
+ .debug_macro   0x0000000000000000       0x16 ./mdd.o
+ .debug_macro   0x0000000000000000       0x97 ./mdd.o
+ .debug_macro   0x0000000000000000       0x1c ./mdd.o
+ .debug_macro   0x0000000000000000       0x5e ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x16 ./mdd.o
+ .debug_macro   0x0000000000000000       0x20 ./mdd.o
+ .debug_macro   0x0000000000000000       0x58 ./mdd.o
+ .debug_macro   0x0000000000000000       0x11 ./mdd.o
+ .debug_macro   0x0000000000000000       0x70 ./mdd.o
+ .debug_macro   0x0000000000000000       0x17 ./mdd.o
+ .debug_macro   0x0000000000000000       0x94 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x3a ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x12 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000       0x35 ./mdd.o
+ .debug_macro   0x0000000000000000       0x16 ./mdd.o
+ .debug_macro   0x0000000000000000       0x28 ./mdd.o
+ .debug_macro   0x0000000000000000       0x58 ./mdd.o
+ .debug_macro   0x0000000000000000       0x10 ./mdd.o
+ .debug_macro   0x0000000000000000      0x1cc ./mdd.o
+ .debug_macro   0x0000000000000000       0x46 ./mdd.o
+ .debug_macro   0x0000000000000000       0x2e ./mdd.o
+ .debug_macro   0x0000000000000000       0x27 ./mdd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./mdd.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .group         0x0000000000000000        0xc ./myev3.o
+ .text          0x0000000000000000        0x0 ./myev3.o
+ .data          0x0000000000000000        0x0 ./myev3.o
+ .bss           0x0000000000000000        0x0 ./myev3.o
+ .debug_macro   0x0000000000000000      0xa6c ./myev3.o
+ .debug_macro   0x0000000000000000       0x16 ./myev3.o
+ .debug_macro   0x0000000000000000       0x34 ./myev3.o
+ .debug_macro   0x0000000000000000       0x10 ./myev3.o
+ .debug_macro   0x0000000000000000      0x19e ./myev3.o
+ .debug_macro   0x0000000000000000      0x168 ./myev3.o
+ .debug_macro   0x0000000000000000       0x1c ./myev3.o
+ .debug_macro   0x0000000000000000       0x4a ./myev3.o
+ .debug_macro   0x0000000000000000       0x70 ./myev3.o
+ .debug_macro   0x0000000000000000       0x34 ./myev3.o
+ .debug_macro   0x0000000000000000       0x5e ./myev3.o
+ .debug_macro   0x0000000000000000       0xe2 ./myev3.o
+ .debug_macro   0x0000000000000000       0x16 ./myev3.o
+ .debug_macro   0x0000000000000000       0x22 ./myev3.o
+ .debug_macro   0x0000000000000000       0x16 ./myev3.o
+ .debug_macro   0x0000000000000000       0x34 ./myev3.o
+ .debug_macro   0x0000000000000000       0x2e ./myev3.o
+ .debug_macro   0x0000000000000000      0x119 ./myev3.o
+ .debug_macro   0x0000000000000000       0x2e ./myev3.o
+ .debug_macro   0x0000000000000000       0x40 ./myev3.o
+ .debug_macro   0x0000000000000000       0x2e ./myev3.o
+ .debug_macro   0x0000000000000000       0x40 ./myev3.o
+ .debug_macro   0x0000000000000000       0x64 ./myev3.o
+ .debug_macro   0x0000000000000000       0x10 ./myev3.o
+ .debug_macro   0x0000000000000000       0x3a ./myev3.o
+ .debug_macro   0x0000000000000000       0x10 ./myev3.o
+ .debug_macro   0x0000000000000000       0x35 ./myev3.o
+ .debug_macro   0x0000000000000000       0x16 ./myev3.o
+ .debug_macro   0x0000000000000000       0x28 ./myev3.o
+ .debug_macro   0x0000000000000000       0x58 ./myev3.o
+ .debug_macro   0x0000000000000000       0x10 ./myev3.o
+ .debug_macro   0x0000000000000000      0x1cc ./myev3.o
+ .debug_macro   0x0000000000000000       0x46 ./myev3.o
+ .debug_macro   0x0000000000000000       0x2e ./myev3.o
+ .debug_macro   0x0000000000000000       0x27 ./myev3.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./myev3.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .group         0x0000000000000000        0xc ./time_util.o
+ .text          0x0000000000000000        0x0 ./time_util.o
+ .data          0x0000000000000000        0x0 ./time_util.o
+ .bss           0x0000000000000000        0x0 ./time_util.o
+ .text.add_ms   0x0000000000000000       0x80 ./time_util.o
+ .debug_info    0x0000000000000000      0x13f ./time_util.o
+ .debug_abbrev  0x0000000000000000       0xad ./time_util.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./time_util.o
+ .debug_ranges  0x0000000000000000       0x10 ./time_util.o
+ .debug_macro   0x0000000000000000      0x10a ./time_util.o
+ .debug_macro   0x0000000000000000      0xa6c ./time_util.o
+ .debug_macro   0x0000000000000000       0x16 ./time_util.o
+ .debug_macro   0x0000000000000000      0x19e ./time_util.o
+ .debug_macro   0x0000000000000000      0x168 ./time_util.o
+ .debug_macro   0x0000000000000000       0x1c ./time_util.o
+ .debug_macro   0x0000000000000000       0x4a ./time_util.o
+ .debug_macro   0x0000000000000000       0x70 ./time_util.o
+ .debug_macro   0x0000000000000000       0x10 ./time_util.o
+ .debug_macro   0x0000000000000000       0x97 ./time_util.o
+ .debug_macro   0x0000000000000000       0x5e ./time_util.o
+ .debug_macro   0x0000000000000000       0xe2 ./time_util.o
+ .debug_macro   0x0000000000000000       0x52 ./time_util.o
+ .debug_macro   0x0000000000000000       0x11 ./time_util.o
+ .debug_line    0x0000000000000000      0x250 ./time_util.o
+ .debug_str     0x0000000000000000     0x4891 ./time_util.o
+ .comment       0x0000000000000000       0x33 ./time_util.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./time_util.o
+ .debug_frame   0x0000000000000000       0x34 ./time_util.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./time_util.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .group         0x0000000000000000        0xc ./workers.o
+ .text          0x0000000000000000        0x0 ./workers.o
+ .data          0x0000000000000000        0x0 ./workers.o
+ .bss           0x0000000000000000        0x0 ./workers.o
+ .text.myreadUS
+                0x0000000000000000       0xbc ./workers.o
+ .text.oneScan  0x0000000000000000       0x94 ./workers.o
+ .text.min      0x0000000000000000       0x1c ./workers.o
+ .text.scanWorkerInit
+                0x0000000000000000       0x74 ./workers.o
+ .rodata        0x0000000000000000        0x4 ./workers.o
+ .text.scanWorker
+                0x0000000000000000      0x118 ./workers.o
+ .text.deadRWorkerInit
+                0x0000000000000000       0x44 ./workers.o
+ .text.deadRWorker
+                0x0000000000000000      0x364 ./workers.o
+ .text.normalize
+                0x0000000000000000       0x2e ./workers.o
+ .text.deadreckoningGoTo
+                0x0000000000000000      0x244 ./workers.o
+ .bss.prevRight.7358
+                0x0000000000000000        0x4 ./workers.o
+ .bss.prevLeft.7359
+                0x0000000000000000        0x4 ./workers.o
+ .debug_info    0x0000000000000000      0xd21 ./workers.o
+ .debug_abbrev  0x0000000000000000      0x20a ./workers.o
+ .debug_aranges
+                0x0000000000000000       0x60 ./workers.o
+ .debug_ranges  0x0000000000000000       0x70 ./workers.o
+ .debug_macro   0x0000000000000000      0x2b5 ./workers.o
+ .debug_macro   0x0000000000000000      0xa6c ./workers.o
+ .debug_macro   0x0000000000000000       0x16 ./workers.o
+ .debug_macro   0x0000000000000000       0x34 ./workers.o
+ .debug_macro   0x0000000000000000      0x174 ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000      0x19e ./workers.o
+ .debug_macro   0x0000000000000000      0x168 ./workers.o
+ .debug_macro   0x0000000000000000       0x1c ./workers.o
+ .debug_macro   0x0000000000000000       0x4a ./workers.o
+ .debug_macro   0x0000000000000000       0x70 ./workers.o
+ .debug_macro   0x0000000000000000       0x34 ./workers.o
+ .debug_macro   0x0000000000000000       0x5e ./workers.o
+ .debug_macro   0x0000000000000000       0xe2 ./workers.o
+ .debug_macro   0x0000000000000000       0x16 ./workers.o
+ .debug_macro   0x0000000000000000      0x1bf ./workers.o
+ .debug_macro   0x0000000000000000       0x22 ./workers.o
+ .debug_macro   0x0000000000000000       0x16 ./workers.o
+ .debug_macro   0x0000000000000000       0x34 ./workers.o
+ .debug_macro   0x0000000000000000       0x2e ./workers.o
+ .debug_macro   0x0000000000000000      0x119 ./workers.o
+ .debug_macro   0x0000000000000000       0x2e ./workers.o
+ .debug_macro   0x0000000000000000       0x40 ./workers.o
+ .debug_macro   0x0000000000000000       0x2e ./workers.o
+ .debug_macro   0x0000000000000000       0x40 ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000       0x3a ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000       0x35 ./workers.o
+ .debug_macro   0x0000000000000000       0x16 ./workers.o
+ .debug_macro   0x0000000000000000       0x28 ./workers.o
+ .debug_macro   0x0000000000000000       0x58 ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000      0x1cc ./workers.o
+ .debug_macro   0x0000000000000000       0x46 ./workers.o
+ .debug_macro   0x0000000000000000       0x2e ./workers.o
+ .debug_macro   0x0000000000000000       0x27 ./workers.o
+ .debug_macro   0x0000000000000000       0x70 ./workers.o
+ .debug_macro   0x0000000000000000      0x190 ./workers.o
+ .debug_macro   0x0000000000000000       0x52 ./workers.o
+ .debug_macro   0x0000000000000000       0x27 ./workers.o
+ .debug_macro   0x0000000000000000       0x58 ./workers.o
+ .debug_macro   0x0000000000000000      0x824 ./workers.o
+ .debug_macro   0x0000000000000000       0x20 ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000      0x172 ./workers.o
+ .debug_macro   0x0000000000000000       0x28 ./workers.o
+ .debug_macro   0x0000000000000000       0x79 ./workers.o
+ .debug_macro   0x0000000000000000       0x22 ./workers.o
+ .debug_macro   0x0000000000000000       0x10 ./workers.o
+ .debug_macro   0x0000000000000000       0x12 ./workers.o
+ .debug_macro   0x0000000000000000       0x58 ./workers.o
+ .debug_macro   0x0000000000000000       0x3c ./workers.o
+ .debug_macro   0x0000000000000000       0x43 ./workers.o
+ .debug_macro   0x0000000000000000      0x1cb ./workers.o
+ .debug_macro   0x0000000000000000       0x64 ./workers.o
+ .debug_line    0x0000000000000000      0x588 ./workers.o
+ .debug_str     0x0000000000000000     0xc356 ./workers.o
+ .comment       0x0000000000000000       0x33 ./workers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./workers.o
+ .debug_frame   0x0000000000000000      0x138 ./workers.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./workers.o
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .data          0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .bss           0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .ARM.extab     0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+Configuration mémoire
+
+Nom              Origine            Longueur           Attributs
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script de l'éditeurs de liens and table de projection mémoire
+
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+LOAD ./communication.o
+LOAD ./main.o
+LOAD ./mdd.o
+LOAD ./myev3.o
+LOAD ./time_util.o
+LOAD ./workers.o
+LOAD /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/librt.so
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/libm.so
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/libc.so
+START GROUP
+LOAD /usr/arm-linux-gnueabi/lib/libc.so.6
+LOAD /usr/arm-linux-gnueabi/lib/libc_nonshared.a
+LOAD /usr/arm-linux-gnueabi/lib/ld-linux.so.3
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc_s.so.1
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+LOAD /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x0000000000010154                . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp         0x0000000000010154       0x13
+ *(.interp)
+ .interp        0x0000000000010154       0x13 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.ABI-tag   0x0000000000010168       0x20
+ .note.ABI-tag  0x0000000000010168       0x20 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.note.gnu.build-id
+                0x0000000000010188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010188       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000101ac      0x170
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000101ac      0x170 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynsym         0x000000000001031c      0x300
+ *(.dynsym)
+ .dynsym        0x000000000001031c      0x300 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.dynstr         0x000000000001061c      0x201
+ *(.dynstr)
+ .dynstr        0x000000000001061c      0x201 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version    0x000000000001081e       0x60
+ *(.gnu.version)
+ .gnu.version   0x000000000001081e       0x60 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_d  0x0000000000010880        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000010880        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.gnu.version_r  0x0000000000010880       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000010880       0x60 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rel.dyn        0x00000000000108e0       0x10
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000108e0        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000108e8        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000000108f0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000000108f0        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x00000000000108f0        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rel.plt        0x00000000000108f0      0x158
+ *(.rel.plt)
+ .rel.plt       0x00000000000108f0      0x158 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000010a48        0xc
+ *(SORT_NONE(.init))
+ .init          0x0000000000010a48        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x0000000000010a48                _init
+ .init          0x0000000000010a50        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.plt            0x0000000000010a54      0x260
+ *(.plt)
+ .plt           0x0000000000010a54      0x260 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000010a68                open@@GLIBC_2.4
+                0x0000000000010a74                abort@@GLIBC_2.4
+                0x0000000000010a80                opendir@@GLIBC_2.4
+                0x0000000000010a8c                memcmp@@GLIBC_2.4
+                0x0000000000010a98                __libc_start_main@@GLIBC_2.4
+                0x0000000000010ab4                fclose@@GLIBC_2.4
+                0x0000000000010ac4                fgets@@GLIBC_2.4
+                0x0000000000010ad0                strtod@@GLIBC_2.4
+                0x0000000000010adc                system@@GLIBC_2.4
+                0x0000000000010aec                listen@@GLIBC_2.4
+                0x0000000000010afc                htons@@GLIBC_2.4
+                0x0000000000010b08                fopen@@GLIBC_2.4
+                0x0000000000010b14                memset@@GLIBC_2.4
+                0x0000000000010b24                perror@@GLIBC_2.4
+                0x0000000000010b34                accept@@GLIBC_2.4
+                0x0000000000010b44                pthread_mutex_unlock@@GLIBC_2.4
+                0x0000000000010b54                socket@@GLIBC_2.4
+                0x0000000000010b60                ioctl@@GLIBC_2.4
+                0x0000000000010b70                pthread_mutex_lock@@GLIBC_2.4
+                0x0000000000010b7c                strlen@@GLIBC_2.4
+                0x0000000000010b88                strtoul@@GLIBC_2.4
+                0x0000000000010b94                memcpy@@GLIBC_2.4
+                0x0000000000010ba0                strtol@@GLIBC_2.4
+                0x0000000000010bb0                printf@@GLIBC_2.4
+                0x0000000000010bbc                raise@@GLIBC_2.4
+                0x0000000000010bcc                pthread_mutex_init@@GLIBC_2.4
+                0x0000000000010bdc                bind@@GLIBC_2.4
+                0x0000000000010bec                fdopen@@GLIBC_2.4
+                0x0000000000010bf8                strstr@@GLIBC_2.4
+                0x0000000000010c08                close@@GLIBC_2.4
+                0x0000000000010c14                fwrite@@GLIBC_2.4
+                0x0000000000010c20                closedir@@GLIBC_2.4
+                0x0000000000010c30                malloc@@GLIBC_2.4
+                0x0000000000010c40                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000010c4c                strtok@@GLIBC_2.4
+                0x0000000000010c5c                puts@@GLIBC_2.4
+                0x0000000000010c6c                dup@@GLIBC_2.4
+                0x0000000000010c78                fread@@GLIBC_2.4
+                0x0000000000010c84                strncmp@@GLIBC_2.4
+                0x0000000000010c90                readdir@@GLIBC_2.4
+                0x0000000000010c9c                strcmp@@GLIBC_2.4
+                0x0000000000010ca8                sprintf@@GLIBC_2.4
+
+.iplt           0x0000000000010cb4        0x0
+ *(.iplt)
+ .iplt          0x0000000000010cb4        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+
+.text           0x0000000000010cb8     0x95f8
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010cb8       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x0000000000010cb8                _start
+ .text          0x0000000000010cf4       0x24 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .text          0x0000000000010d18       0x90 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ .text.WaitClient
+                0x0000000000010da8      0x124 ./communication.o
+                0x0000000000010da8                WaitClient
+ .text.CloseSockets
+                0x0000000000010ecc       0x18 ./communication.o
+                0x0000000000010ecc                CloseSockets
+ .text.init_comms
+                0x0000000000010ee4       0x1c ./main.o
+                0x0000000000010ee4                init_comms
+ .text.main     0x0000000000010f00      0x134 ./main.o
+                0x0000000000010f00                main
+ .text.MDD_int_init
+                0x0000000000011034       0x34 ./mdd.o
+                0x0000000000011034                MDD_int_init
+ .text.MDD_int_write
+                0x0000000000011068       0x32 ./mdd.o
+                0x0000000000011068                MDD_int_write
+ *fill*         0x000000000001109a        0x2 
+ .text.my_init_ev3
+                0x000000000001109c      0x11c ./myev3.o
+                0x000000000001109c                my_init_ev3
+ .text          0x00000000000111b8      0x740 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+                0x00000000000111b8                ev3_init
+                0x00000000000111c0                ev3_uninit
+                0x00000000000111c4                ev3_string_suffix
+                0x0000000000011230                ev3_listdir
+                0x00000000000112dc                ev3_poweroff
+                0x0000000000011304                ev3_read_keys
+                0x00000000000113c8                ev3_read_binary
+                0x0000000000011424                ev3_read_byte_array
+                0x0000000000011428                ev3_read
+                0x0000000000011450                ev3_read_char_array
+                0x0000000000011454                ev3_read_float
+                0x00000000000114b0                ev3_read_dword
+                0x000000000001150c                ev3_read_int
+                0x0000000000011568                ev3_read_byte
+                0x0000000000011594                ev3_read_bool
+                0x00000000000115cc                ev3_write_binary
+                0x0000000000011628                ev3_write_byte_array
+                0x000000000001162c                ev3_write_bool
+                0x0000000000011664                ev3_write
+                0x000000000001168c                ev3_write_char_array
+                0x0000000000011690                ev3_write_float
+                0x00000000000116c8                ev3_write_dword
+                0x00000000000116f8                ev3_write_int
+                0x0000000000011728                ev3_write_byte
+                0x000000000001172c                ev3_multi_write_binary
+                0x0000000000011798                ev3_multi_write_byte_array
+                0x000000000001179c                ev3_multi_write_bool
+                0x00000000000117e8                ev3_multi_write
+                0x0000000000011828                ev3_multi_write_char_array
+                0x000000000001182c                ev3_multi_write_float
+                0x0000000000011874                ev3_multi_write_dword
+                0x00000000000118b4                ev3_multi_write_int
+                0x00000000000118f4                ev3_multi_write_byte
+ .text          0x00000000000118f8     0x10f8 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+                0x00000000000118f8                ev3_port_type
+                0x000000000001199c                ev3_port_desc
+                0x00000000000119c4                ev3_port_desc_type_inx
+                0x00000000000119d4                ev3_port_desc_port
+                0x00000000000119e4                ev3_port_desc_extport
+                0x00000000000119f4                ev3_port_desc_addr
+                0x0000000000011a04                ev3_search_port_type
+                0x0000000000011a80                ev3_search_port_plugged_in
+                0x0000000000011b08                ev3_port_mode
+                0x0000000000011c84                ev3_search_port
+                0x0000000000011ca4                ev3_port_name
+                0x0000000000011e6c                ev3_port_port_name
+                0x0000000000011eac                ev3_parse_port_name
+                0x0000000000012078                get_port_status
+                0x00000000000120e0                get_port_modes
+                0x0000000000012148                get_port_mode
+                0x00000000000121b0                get_port_mode_inx_of_type
+                0x00000000000124d8                get_port_mode_inx
+                0x00000000000124f4                get_port_driver_name
+                0x0000000000012570                get_port_type_inx
+                0x0000000000012668                get_port_address
+                0x00000000000126e4                get_port_desc
+                0x0000000000012750                ev3_port_init
+                0x0000000000012848                multi_set_port_set_device
+                0x000000000001289c                multi_set_port_mode
+                0x00000000000128f0                multi_set_port_mode_inx
+                0x0000000000012910                set_port_set_device
+                0x0000000000012970                set_port_mode
+                0x00000000000129d0                set_port_mode_inx
+ .text          0x00000000000129f0     0x3c58 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+                0x00000000000129f0                ev3_sensor_type
+                0x0000000000012db4                ev3_sensor_desc
+                0x0000000000012ddc                ev3_sensor_desc_type_inx
+                0x0000000000012dec                ev3_sensor_desc_port
+                0x0000000000012dfc                ev3_sensor_desc_extport
+                0x0000000000012e0c                ev3_sensor_desc_addr
+                0x0000000000012e1c                ev3_search_sensor
+                0x0000000000012e98                ev3_search_sensor_plugged_in
+                0x0000000000012f20                ev3_sensor_mode
+                0x00000000000139e0                ev3_sensor_command
+                0x0000000000013cb0                ev3_sensor_port_name
+                0x0000000000013cf0                get_sensor_value
+                0x0000000000013d6c                get_sensor_text_value
+                0x0000000000013dd4                get_sensor_units
+                0x0000000000013e3c                get_sensor_modes
+                0x0000000000013ea4                get_sensor_mode
+                0x0000000000013f0c                get_sensor_mode_inx_of_type
+                0x000000000001549c                get_sensor_mode_inx
+                0x00000000000154b8                get_sensor_fw_version
+                0x0000000000015520                get_sensor_driver_name
+                0x000000000001559c                get_sensor_type_inx
+                0x0000000000015a24                get_sensor_direct
+                0x0000000000015a8c                get_sensor_commands
+                0x0000000000015af4                get_sensor_bin_data_format
+                0x0000000000015b70                get_sensor_address
+                0x0000000000015bec                get_sensor_desc
+                0x0000000000015c58                ev3_sensor_init
+                0x0000000000015d50                get_sensor_value7
+                0x0000000000015db0                get_sensor_value6
+                0x0000000000015e10                get_sensor_value5
+                0x0000000000015e70                get_sensor_value4
+                0x0000000000015ed0                get_sensor_value3
+                0x0000000000015f30                get_sensor_value2
+                0x0000000000015f90                get_sensor_value1
+                0x0000000000015ff0                get_sensor_value0
+                0x0000000000016050                multi_set_sensor_poll_ms
+                0x00000000000160b4                set_sensor_poll_ms
+                0x0000000000016128                get_sensor_poll_ms
+                0x000000000001619c                get_sensor_num_values
+                0x00000000000161fc                get_sensor_decimals
+                0x000000000001625c                multi_set_sensor_mode
+                0x00000000000162b0                multi_set_sensor_mode_inx
+                0x00000000000162d0                multi_set_sensor_direct
+                0x0000000000016324                multi_set_sensor_command
+                0x0000000000016388                multi_set_sensor_command_inx
+                0x00000000000163a8                set_sensor_mode
+                0x0000000000016408                set_sensor_mode_inx
+                0x0000000000016428                set_sensor_direct
+                0x0000000000016488                set_sensor_command
+                0x00000000000164fc                set_sensor_command_inx
+                0x000000000001651c                multi_set_sensor_bin_data
+                0x0000000000016578                set_sensor_bin_data
+                0x00000000000165e0                get_sensor_bin_data
+ .text          0x0000000000016648     0x1f28 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+                0x0000000000016648                ev3_tacho_type
+                0x00000000000166b0                ev3_tacho_desc
+                0x00000000000166dc                ev3_tacho_desc_type_inx
+                0x00000000000166ec                ev3_tacho_desc_port
+                0x00000000000166fc                ev3_tacho_desc_extport
+                0x000000000001670c                ev3_search_tacho
+                0x0000000000016798                ev3_search_tacho_plugged_in
+                0x0000000000016824                ev3_tacho_command
+                0x00000000000168dc                ev3_tacho_polarity
+                0x000000000001692c                ev3_tacho_stop_action
+                0x0000000000016994                ev3_tacho_port_name
+                0x00000000000169c8                multi_set_tacho_time_sp
+                0x0000000000016a1c                multi_set_tacho_speed_sp
+                0x0000000000016a80                multi_set_tacho_speed_pid_Kp
+                0x0000000000016ae4                multi_set_tacho_speed_pid_Ki
+                0x0000000000016b48                multi_set_tacho_speed_pid_Kd
+                0x0000000000016bac                multi_set_tacho_ramp_up_sp
+                0x0000000000016c00                multi_set_tacho_ramp_down_sp
+                0x0000000000016c64                multi_set_tacho_position_sp
+                0x0000000000016cb8                multi_set_tacho_position
+                0x0000000000016d1c                multi_set_tacho_hold_pid_Kp
+                0x0000000000016d70                multi_set_tacho_hold_pid_Ki
+                0x0000000000016dc4                multi_set_tacho_hold_pid_Kd
+                0x0000000000016e18                multi_set_tacho_duty_cycle_sp
+                0x0000000000016e6c                set_tacho_time_sp
+                0x0000000000016ecc                set_tacho_speed_sp
+                0x0000000000016f40                set_tacho_speed_pid_Kp
+                0x0000000000016fb4                set_tacho_speed_pid_Ki
+                0x0000000000017028                set_tacho_speed_pid_Kd
+                0x000000000001709c                set_tacho_ramp_up_sp
+                0x00000000000170fc                set_tacho_ramp_down_sp
+                0x0000000000017170                set_tacho_position_sp
+                0x00000000000171d0                set_tacho_position
+                0x0000000000017244                set_tacho_hold_pid_Kp
+                0x00000000000172a4                set_tacho_hold_pid_Ki
+                0x0000000000017304                set_tacho_hold_pid_Kd
+                0x0000000000017364                set_tacho_duty_cycle_sp
+                0x00000000000173c4                get_tacho_time_sp
+                0x0000000000017424                get_tacho_speed_sp
+                0x0000000000017498                get_tacho_speed_pid_Kp
+                0x000000000001750c                get_tacho_speed_pid_Ki
+                0x0000000000017580                get_tacho_speed_pid_Kd
+                0x00000000000175f4                get_tacho_speed
+                0x0000000000017654                get_tacho_ramp_up_sp
+                0x00000000000176b4                get_tacho_ramp_down_sp
+                0x0000000000017728                get_tacho_position_sp
+                0x0000000000017788                get_tacho_position
+                0x00000000000177fc                get_tacho_max_speed
+                0x000000000001785c                get_tacho_hold_pid_Kp
+                0x00000000000178bc                get_tacho_hold_pid_Ki
+                0x000000000001791c                get_tacho_hold_pid_Kd
+                0x000000000001797c                get_tacho_duty_cycle_sp
+                0x00000000000179dc                get_tacho_duty_cycle
+                0x0000000000017a3c                get_tacho_full_travel_count
+                0x0000000000017a9c                get_tacho_count_per_m
+                0x0000000000017afc                get_tacho_count_per_rot
+                0x0000000000017b5c                get_tacho_stop_actions
+                0x0000000000017bd8                get_tacho_stop_action
+                0x0000000000017c40                get_tacho_stop_action_inx
+                0x0000000000017cd8                get_tacho_state
+                0x0000000000017d40                get_tacho_state_flags
+                0x0000000000017e38                get_tacho_polarity
+                0x0000000000017eb4                get_tacho_polarity_inx
+                0x0000000000017f2c                get_tacho_driver_name
+                0x0000000000017f94                get_tacho_type_inx
+                0x000000000001802c                get_tacho_commands
+                0x00000000000180a8                get_tacho_address
+                0x0000000000018110                get_tacho_desc
+                0x0000000000018174                ev3_tacho_init
+                0x0000000000018270                multi_set_tacho_stop_action
+                0x00000000000182c4                multi_set_tacho_stop_action_inx
+                0x00000000000182e4                multi_set_tacho_polarity
+                0x0000000000018348                multi_set_tacho_polarity_inx
+                0x0000000000018368                multi_set_tacho_command
+                0x00000000000183bc                multi_set_tacho_command_inx
+                0x00000000000183dc                set_tacho_stop_action
+                0x000000000001843c                set_tacho_stop_action_inx
+                0x000000000001845c                set_tacho_polarity
+                0x00000000000184d0                set_tacho_polarity_inx
+                0x00000000000184f0                set_tacho_command
+                0x0000000000018550                set_tacho_command_inx
+ .text          0x0000000000018570      0x938 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+                0x0000000000018570                modp_itoa10
+                0x00000000000185fc                modp_uitoa10
+                0x0000000000018668                modp_litoa10
+                0x00000000000186fc                modp_ulitoa10
+                0x0000000000018788                modp_dtoa2
+                0x0000000000018b3c                modp_dtoa
+ .text          0x0000000000018ea8      0x144 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+                0x0000000000018ea8                crc32
+ .text          0x0000000000018fec      0x240 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+                0x0000000000018fec                __divsi3
+                0x0000000000018fec                __aeabi_idiv
+                0x000000000001920c                __aeabi_idivmod
+ .text          0x000000000001922c      0x3c0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+                0x000000000001922c                __aeabi_drsub
+                0x0000000000019234                __subdf3
+                0x0000000000019234                __aeabi_dsub
+                0x0000000000019238                __adddf3
+                0x0000000000019238                __aeabi_dadd
+                0x00000000000194e4                __aeabi_ui2d
+                0x00000000000194e4                __floatunsidf
+                0x0000000000019508                __floatsidf
+                0x0000000000019508                __aeabi_i2d
+                0x0000000000019530                __aeabi_f2d
+                0x0000000000019530                __extendsfdf2
+                0x0000000000019578                __floatundidf
+                0x0000000000019578                __aeabi_ul2d
+                0x000000000001958c                __floatdidf
+                0x000000000001958c                __aeabi_l2d
+ .text          0x00000000000195ec      0x470 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+                0x00000000000195ec                __muldf3
+                0x00000000000195ec                __aeabi_dmul
+                0x0000000000019858                __divdf3
+                0x0000000000019858                __aeabi_ddiv
+ .text          0x0000000000019a5c      0x12c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+                0x0000000000019a5c                __gtdf2
+                0x0000000000019a5c                __gedf2
+                0x0000000000019a64                __ltdf2
+                0x0000000000019a64                __ledf2
+                0x0000000000019a6c                __cmpdf2
+                0x0000000000019a6c                __nedf2
+                0x0000000000019a6c                __eqdf2
+                0x0000000000019af4                __aeabi_cdrcmple
+                0x0000000000019b10                __aeabi_cdcmple
+                0x0000000000019b10                __aeabi_cdcmpeq
+                0x0000000000019b24                __aeabi_dcmpeq
+                0x0000000000019b38                __aeabi_dcmplt
+                0x0000000000019b4c                __aeabi_dcmple
+                0x0000000000019b60                __aeabi_dcmpge
+                0x0000000000019b74                __aeabi_dcmpgt
+ .text          0x0000000000019b88       0x5c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+                0x0000000000019b88                __fixdfsi
+                0x0000000000019b88                __aeabi_d2iz
+ .text          0x0000000000019be4       0x54 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+                0x0000000000019be4                __fixunsdfsi
+                0x0000000000019be4                __aeabi_d2uiz
+ .text          0x0000000000019c38       0xa0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+                0x0000000000019c38                __aeabi_d2f
+                0x0000000000019c38                __truncdfsf2
+ .text          0x0000000000019cd8      0x250 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+                0x0000000000019cd8                __aeabi_frsub
+                0x0000000000019ce0                __subsf3
+                0x0000000000019ce0                __aeabi_fsub
+                0x0000000000019ce4                __aeabi_fadd
+                0x0000000000019ce4                __addsf3
+                0x0000000000019e74                __aeabi_ui2f
+                0x0000000000019e74                __floatunsisf
+                0x0000000000019e7c                __floatsisf
+                0x0000000000019e7c                __aeabi_i2f
+                0x0000000000019e9c                __aeabi_ul2f
+                0x0000000000019e9c                __floatundisf
+                0x0000000000019eac                __aeabi_l2f
+                0x0000000000019eac                __floatdisf
+ .text          0x0000000000019f28       0xfc /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+                0x0000000000019f28                __gesf2
+                0x0000000000019f28                __gtsf2
+                0x0000000000019f30                __lesf2
+                0x0000000000019f30                __ltsf2
+                0x0000000000019f38                __cmpsf2
+                0x0000000000019f38                __eqsf2
+                0x0000000000019f38                __nesf2
+                0x0000000000019f9c                __aeabi_cfrcmple
+                0x0000000000019fac                __aeabi_cfcmple
+                0x0000000000019fac                __aeabi_cfcmpeq
+                0x0000000000019fc0                __aeabi_fcmpeq
+                0x0000000000019fd4                __aeabi_fcmplt
+                0x0000000000019fe8                __aeabi_fcmple
+                0x0000000000019ffc                __aeabi_fcmpge
+                0x000000000001a010                __aeabi_fcmpgt
+ .text          0x000000000001a024       0x5c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+                0x000000000001a024                __fixsfsi
+                0x000000000001a024                __aeabi_f2iz
+ .text          0x000000000001a080       0x3c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000001a080                __aeabi_uldivmod
+ .text          0x000000000001a0bc       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+                0x000000000001a0bc                __aeabi_idiv0
+                0x000000000001a0bc                __aeabi_ldiv0
+ .text          0x000000000001a0cc      0x128 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+                0x000000000001a0cc                __udivmoddi4
+ .text          0x000000000001a1f4       0x64 /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+                0x000000000001a1f4                __libc_csu_init
+                0x000000000001a254                __libc_csu_fini
+ .text.__stub   0x000000000001a258       0x58 linker stubs
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000000000001a2b0        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000000001a2b0        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000000000001a2b0        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000000000001a2b0        0x0 linker stubs
+
+.fini           0x000000000001a2b0        0x8
+ *(SORT_NONE(.fini))
+ .fini          0x000000000001a2b0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+                0x000000000001a2b0                _fini
+ .fini          0x000000000001a2b4        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000001a2b8     0x193c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000001a2b8       0x8a ./communication.o
+ *fill*         0x000000000001a342        0x2 
+ .rodata        0x000000000001a344       0x4a ./main.o
+ *fill*         0x000000000001a38e        0x2 
+ .rodata        0x000000000001a390       0xf7 ./myev3.o
+ *fill*         0x000000000001a487        0x1 
+ .rodata.str1.4
+                0x000000000001a488       0x4a /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+                                         0x50 (taille avant relaxe)
+ *fill*         0x000000000001a4d2        0x2 
+ .rodata.str1.4
+                0x000000000001a4d4      0x227 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+                                        0x258 (taille avant relaxe)
+ *fill*         0x000000000001a6fb        0x1 
+ .rodata.str1.4
+                0x000000000001a6fc      0xb19 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+                                        0xb6c (taille avant relaxe)
+ *fill*         0x000000000001b215        0x3 
+ .rodata.str1.4
+                0x000000000001b218      0x587 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+                                        0x5a0 (taille avant relaxe)
+ *fill*         0x000000000001b79f        0x1 
+ .rodata        0x000000000001b7a0       0x50 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .rodata.str1.4
+                0x000000000001b7f0        0x4 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .rodata        0x000000000001b7f4      0x400 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x000000000001bbf4      0x480
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000000000001bbf4        0x8 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.exidx     0x000000000001bbfc       0xd8 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+                                        0x108 (taille avant relaxe)
+ .ARM.exidx     0x000000000001bcd4       0x98 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+                                         0xe8 (taille avant relaxe)
+ .ARM.exidx     0x000000000001bd6c      0x110 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+                                        0x1a8 (taille avant relaxe)
+ .ARM.exidx     0x000000000001be7c      0x1c8 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+                                        0x288 (taille avant relaxe)
+ .ARM.exidx     0x000000000001c044       0x20 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+                                         0x30 (taille avant relaxe)
+ .ARM.exidx     0x000000000001c064       0x10 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+                                          0x8 (taille avant relaxe)
+ .ARM.exidx     0x000000000001c074        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+                                          0x8 (taille avant relaxe)
+                [!provide]                        PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000001c074        0x4
+ *(.eh_frame)
+ .eh_frame      0x000000000001c074        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000002cee8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000002cee8        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000000002cee8        0x4
+                0x000000000002cee8                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000002cee8        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+                0x000000000002ceec                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000002ceec        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000002ceec        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000002cef0        0x4
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000002cef0        0x4 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x000000000002cef0                __stack_chk_guard@@GLIBC_2.4
+
+.dynamic        0x000000000002cef4      0x108
+ *(.dynamic)
+ .dynamic       0x000000000002cef4      0x108 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x000000000002cef4                _DYNAMIC
+                0x000000000002d000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x000000000002d000       0xc8
+ *(.got.plt)
+ .got.plt       0x000000000002d000       0xb8 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+                0x000000000002d000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000000000002d0b8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.got)
+ .got           0x000000000002d0b8       0x10 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.igot)
+
+.data           0x000000000002d0c8        0x0
+                [!provide]                        PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+
+.tm_clone_table
+                0x000000000002d0c8        0x0
+ .tm_clone_table
+                0x000000000002d0c8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ .tm_clone_table
+                0x000000000002d0c8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000002d0c8                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000002d0c8                . = .
+                0x000000000002d0c8                __bss_start = .
+                0x000000000002d0c8                __bss_start__ = .
+
+.bss            0x000000000002d0c8      0x2d0
+ *(.dynbss)
+ .dynbss        0x000000000002d0c8        0x0 /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000002d0c8        0x1 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ *fill*         0x000000000002d0c9        0x3 
+ .bss.socket_desc
+                0x000000000002d0cc        0x4 ./communication.o
+ *(COMMON)
+ COMMON         0x000000000002d0d0        0x4 ./main.o
+                0x000000000002d0d0                MDD_quit
+ COMMON         0x000000000002d0d4        0x4 ./myev3.o
+                0x000000000002d0d4                MY_RIGHT_TACHO
+                0x000000000002d0d5                MY_US_SENSOR
+                0x000000000002d0d6                MY_LEFT_TACHO
+                0x000000000002d0d7                MY_MINI_TACHO
+ COMMON         0x000000000002d0d8      0x100 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+                0x000000000002d0d8                ev3_port
+ COMMON         0x000000000002d1d8      0x100 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+                0x000000000002d1d8                ev3_sensor
+ COMMON         0x000000000002d2d8       0xc0 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+                0x000000000002d2d8                ev3_tacho
+                0x000000000002d398                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000000000002d398                _bss_end__ = .
+                0x000000000002d398                __bss_end__ = .
+                0x000000000002d398                . = ALIGN (0x4)
+                0x000000000002d398                . = SEGMENT_START ("ldata-segment", .)
+                0x000000000002d398                . = ALIGN (0x4)
+                0x000000000002d398                __end__ = .
+                0x000000000002d398                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x000000000002d398                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x134
+ *(.comment)
+ .comment       0x0000000000000000       0x32 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+                                         0x33 (taille avant relaxe)
+ .comment       0x0000000000000032       0x33 ./communication.o
+ .comment       0x0000000000000032       0x33 ./main.o
+ .comment       0x0000000000000032       0x33 ./mdd.o
+ .comment       0x0000000000000032       0x33 ./myev3.o
+ .comment       0x0000000000000032       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .comment       0x000000000000005d       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .comment       0x0000000000000088       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .comment       0x00000000000000b3       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .comment       0x00000000000000de       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .comment       0x0000000000000109       0x2b /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .comment       0x0000000000000134       0x33 /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x32
+ .ARM.attributes
+                0x0000000000000000       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crt1.o
+ .ARM.attributes
+                0x000000000000002a       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crti.o
+ .ARM.attributes
+                0x0000000000000048       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtbegin.o
+ .ARM.attributes
+                0x0000000000000072       0x32 ./communication.o
+ .ARM.attributes
+                0x00000000000000a4       0x32 ./main.o
+ .ARM.attributes
+                0x00000000000000d6       0x32 ./mdd.o
+ .ARM.attributes
+                0x0000000000000108       0x32 ./myev3.o
+ .ARM.attributes
+                0x000000000000013a       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3.o)
+ .ARM.attributes
+                0x000000000000016b       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_port.o)
+ .ARM.attributes
+                0x000000000000019c       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_sensor.o)
+ .ARM.attributes
+                0x00000000000001cd       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(ev3_tacho.o)
+ .ARM.attributes
+                0x00000000000001fe       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(modp_numtoa.o)
+ .ARM.attributes
+                0x000000000000022f       0x31 /media/francois/24f21175-3164-433d-a50f-ba04f2ba892d/francois/Documents/ENSMA/Travail_A3/SETR/TP/Posix/ev3dev-c/lib/libev3dev-c.a(crc32.o)
+ .ARM.attributes
+                0x0000000000000260       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000027c       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000000000000298       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000000002b4       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000000000002d0       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000000002ec       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x0000000000000308       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000324       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000340       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000000000000035c       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000378       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000394       0x1c /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000000000003b0       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/7/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000000003da       0x2c /usr/arm-linux-gnueabi/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x0000000000000406       0x2a /usr/lib/gcc-cross/arm-linux-gnueabi/7/crtend.o
+ .ARM.attributes
+                0x0000000000000430       0x1e /usr/lib/gcc-cross/arm-linux-gnueabi/7/../../../../arm-linux-gnueabi/lib/../lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xd0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ./communication.o
+ .debug_aranges
+                0x0000000000000028       0x50 ./main.o
+ .debug_aranges
+                0x0000000000000078       0x38 ./mdd.o
+ .debug_aranges
+                0x00000000000000b0       0x20 ./myev3.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1b87
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f6 ./communication.o
+ .debug_info    0x00000000000005f6      0x8fd ./main.o
+ .debug_info    0x0000000000000ef3      0x66b ./mdd.o
+ .debug_info    0x000000000000155e      0x629 ./myev3.o
+
+.debug_abbrev   0x0000000000000000      0x602
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x172 ./communication.o
+ .debug_abbrev  0x0000000000000172      0x1d1 ./main.o
+ .debug_abbrev  0x0000000000000343      0x1a8 ./mdd.o
+ .debug_abbrev  0x00000000000004eb      0x117 ./myev3.o
+
+.debug_line     0x0000000000000000     0x1494
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x5b9 ./communication.o
+ .debug_line    0x00000000000005b9      0x762 ./main.o
+ .debug_line    0x0000000000000d1b      0x411 ./mdd.o
+ .debug_line    0x000000000000112c      0x368 ./myev3.o
+
+.debug_frame    0x0000000000000000      0x1f4
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x4c ./communication.o
+ .debug_frame   0x000000000000004c       0xec ./main.o
+ .debug_frame   0x0000000000000138       0x90 ./mdd.o
+ .debug_frame   0x00000000000001c8       0x2c ./myev3.o
+
+.debug_str      0x0000000000000000    0x1136e
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0xd57b ./communication.o
+                                       0xd79a (taille avant relaxe)
+ .debug_str     0x000000000000d57b     0x3937 ./main.o
+                                       0xe004 (taille avant relaxe)
+ .debug_str     0x0000000000010eb2      0x19c ./mdd.o
+                                       0x703b (taille avant relaxe)
+ .debug_str     0x000000000001104e      0x320 ./myev3.o
+                                       0x6a65 (taille avant relaxe)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x90
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 ./communication.o
+ .debug_ranges  0x0000000000000018       0x40 ./main.o
+ .debug_ranges  0x0000000000000058       0x28 ./mdd.o
+ .debug_ranges  0x0000000000000080       0x10 ./myev3.o
+
+.debug_macro    0x0000000000000000     0x4e6f
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x3b3 ./communication.o
+ .debug_macro   0x00000000000003b3      0xa6c ./communication.o
+ .debug_macro   0x0000000000000e1f       0x16 ./communication.o
+ .debug_macro   0x0000000000000e35       0x10 ./communication.o
+ .debug_macro   0x0000000000000e45      0x19e ./communication.o
+ .debug_macro   0x0000000000000fe3      0x168 ./communication.o
+ .debug_macro   0x000000000000114b       0x1c ./communication.o
+ .debug_macro   0x0000000000001167       0x4a ./communication.o
+ .debug_macro   0x00000000000011b1       0x70 ./communication.o
+ .debug_macro   0x0000000000001221       0x34 ./communication.o
+ .debug_macro   0x0000000000001255       0x10 ./communication.o
+ .debug_macro   0x0000000000001265       0x97 ./communication.o
+ .debug_macro   0x00000000000012fc       0x5e ./communication.o
+ .debug_macro   0x000000000000135a       0xe2 ./communication.o
+ .debug_macro   0x000000000000143c       0x16 ./communication.o
+ .debug_macro   0x0000000000001452       0x20 ./communication.o
+ .debug_macro   0x0000000000001472       0x28 ./communication.o
+ .debug_macro   0x000000000000149a       0x58 ./communication.o
+ .debug_macro   0x00000000000014f2       0x10 ./communication.o
+ .debug_macro   0x0000000000001502      0x1cc ./communication.o
+ .debug_macro   0x00000000000016ce       0x46 ./communication.o
+ .debug_macro   0x0000000000001714       0x2e ./communication.o
+ .debug_macro   0x0000000000001742       0x27 ./communication.o
+ .debug_macro   0x0000000000001769       0x10 ./communication.o
+ .debug_macro   0x0000000000001779       0x3a ./communication.o
+ .debug_macro   0x00000000000017b3       0x10 ./communication.o
+ .debug_macro   0x00000000000017c3       0x10 ./communication.o
+ .debug_macro   0x00000000000017d3       0x12 ./communication.o
+ .debug_macro   0x00000000000017e5       0x10 ./communication.o
+ .debug_macro   0x00000000000017f5       0x10 ./communication.o
+ .debug_macro   0x0000000000001805       0x4c ./communication.o
+ .debug_macro   0x0000000000001851       0x12 ./communication.o
+ .debug_macro   0x0000000000001863       0x1c ./communication.o
+ .debug_macro   0x000000000000187f       0x28 ./communication.o
+ .debug_macro   0x00000000000018a7       0x10 ./communication.o
+ .debug_macro   0x00000000000018b7       0x10 ./communication.o
+ .debug_macro   0x00000000000018c7       0x4c ./communication.o
+ .debug_macro   0x0000000000001913       0x1c ./communication.o
+ .debug_macro   0x000000000000192f       0x10 ./communication.o
+ .debug_macro   0x000000000000193f       0x4c ./communication.o
+ .debug_macro   0x000000000000198b       0x1c ./communication.o
+ .debug_macro   0x00000000000019a7       0x2e ./communication.o
+ .debug_macro   0x00000000000019d5       0x5e ./communication.o
+ .debug_macro   0x0000000000001a33       0x27 ./communication.o
+ .debug_macro   0x0000000000001a5a       0x70 ./communication.o
+ .debug_macro   0x0000000000001aca       0x17 ./communication.o
+ .debug_macro   0x0000000000001ae1       0x3a ./communication.o
+ .debug_macro   0x0000000000001b1b      0x2f7 ./communication.o
+ .debug_macro   0x0000000000001e12       0x1c ./communication.o
+ .debug_macro   0x0000000000001e2e       0xf9 ./communication.o
+ .debug_macro   0x0000000000001f27       0x34 ./communication.o
+ .debug_macro   0x0000000000001f5b      0x196 ./communication.o
+ .debug_macro   0x00000000000020f1       0x4a ./communication.o
+ .debug_macro   0x000000000000213b       0x22 ./communication.o
+ .debug_macro   0x000000000000215d      0x38e ./communication.o
+ .debug_macro   0x00000000000024eb      0x1c0 ./communication.o
+ .debug_macro   0x00000000000026ab       0x5f ./communication.o
+ .debug_macro   0x000000000000270a       0x70 ./communication.o
+ .debug_macro   0x000000000000277a      0x190 ./communication.o
+ .debug_macro   0x000000000000290a       0x52 ./communication.o
+ .debug_macro   0x000000000000295c       0x27 ./communication.o
+ .debug_macro   0x0000000000002983       0x43 ./communication.o
+ .debug_macro   0x00000000000029c6      0x824 ./communication.o
+ .debug_macro   0x00000000000031ea       0x20 ./communication.o
+ .debug_macro   0x000000000000320a      0x4ed ./main.o
+ .debug_macro   0x00000000000036f7       0x10 ./main.o
+ .debug_macro   0x0000000000003707      0x172 ./main.o
+ .debug_macro   0x0000000000003879       0x28 ./main.o
+ .debug_macro   0x00000000000038a1       0x79 ./main.o
+ .debug_macro   0x000000000000391a       0x22 ./main.o
+ .debug_macro   0x000000000000393c       0x10 ./main.o
+ .debug_macro   0x000000000000394c       0x12 ./main.o
+ .debug_macro   0x000000000000395e       0x58 ./main.o
+ .debug_macro   0x00000000000039b6       0x3c ./main.o
+ .debug_macro   0x00000000000039f2       0x43 ./main.o
+ .debug_macro   0x0000000000003a35      0x1cb ./main.o
+ .debug_macro   0x0000000000003c00       0x16 ./main.o
+ .debug_macro   0x0000000000003c16       0x97 ./main.o
+ .debug_macro   0x0000000000003cad       0x52 ./main.o
+ .debug_macro   0x0000000000003cff       0x4c ./main.o
+ .debug_macro   0x0000000000003d4b       0x2e ./main.o
+ .debug_macro   0x0000000000003d79       0x28 ./main.o
+ .debug_macro   0x0000000000003da1       0x10 ./main.o
+ .debug_macro   0x0000000000003db1       0x10 ./main.o
+ .debug_macro   0x0000000000003dc1       0x4a ./main.o
+ .debug_macro   0x0000000000003e0b       0x34 ./main.o
+ .debug_macro   0x0000000000003e3f       0x8d ./main.o
+ .debug_macro   0x0000000000003ecc       0x10 ./main.o
+ .debug_macro   0x0000000000003edc       0x16 ./main.o
+ .debug_macro   0x0000000000003ef2      0x1b9 ./main.o
+ .debug_macro   0x00000000000040ab       0x22 ./main.o
+ .debug_macro   0x00000000000040cd       0x16 ./main.o
+ .debug_macro   0x00000000000040e3       0x34 ./main.o
+ .debug_macro   0x0000000000004117       0x2e ./main.o
+ .debug_macro   0x0000000000004145       0x40 ./main.o
+ .debug_macro   0x0000000000004185       0x2e ./main.o
+ .debug_macro   0x00000000000041b3      0x119 ./main.o
+ .debug_macro   0x00000000000042cc       0x2e ./main.o
+ .debug_macro   0x00000000000042fa       0x40 ./main.o
+ .debug_macro   0x000000000000433a       0x16 ./main.o
+ .debug_macro   0x0000000000004350       0x35 ./main.o
+ .debug_macro   0x0000000000004385       0x1c ./main.o
+ .debug_macro   0x00000000000043a1       0x5e ./main.o
+ .debug_macro   0x00000000000043ff       0x10 ./main.o
+ .debug_macro   0x000000000000440f       0x16 ./main.o
+ .debug_macro   0x0000000000004425       0x58 ./main.o
+ .debug_macro   0x000000000000447d       0x11 ./main.o
+ .debug_macro   0x000000000000448e       0x94 ./main.o
+ .debug_macro   0x0000000000004522       0x64 ./main.o
+ .debug_macro   0x0000000000004586      0x29d ./mdd.o
+ .debug_macro   0x0000000000004823       0xfd ./mdd.o
+ .debug_macro   0x0000000000004920       0x58 ./mdd.o
+ .debug_macro   0x0000000000004978      0x1c4 ./myev3.o
+ .debug_macro   0x0000000000004b3c      0x174 ./myev3.o
+ .debug_macro   0x0000000000004cb0      0x1bf ./myev3.o
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(tpev3.elf elf32-littlearm)
